@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+echo ""
+echo "🐶[Husky] pre-commit.sh Start ..."
+yarn lint-staged
+echo "ok"
